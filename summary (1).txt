@@ -1,0 +1,34 @@
+PCA (Eigenface) + ANN Face Recognition - Results Summary
+=======================================================
+
+Total unique images loaded: 391
+Enrolled identities: ['Aamir', 'Ajay', 'Akshay', 'Alia', 'Amitabh', 'Disha', 'Ileana']
+Imposter identities (held out): ['Deepika', 'Farhan']
+Train/Test split: 182/124 (60/40)
+
+k-sweep results:
+  k=   2  accuracy= 29.8%
+  k=   4  accuracy= 33.1%
+  k=   6  accuracy= 44.4%
+  k=   8  accuracy= 38.7%
+  k=  10  accuracy= 44.4%
+  k=  12  accuracy= 50.0%
+  k=  14  accuracy= 50.0%
+  k=  16  accuracy= 55.6%
+  k=  18  accuracy= 54.8%
+  k=  20  accuracy= 50.8%
+  k=  30  accuracy= 56.5%
+  k=  40  accuracy= 60.5%
+  k=  50  accuracy= 62.9%
+  k=  60  accuracy= 66.9%
+  k=  70  accuracy= 70.2%
+  k=  80  accuracy= 73.4%
+  k=  90  accuracy= 75.0%
+  k= 100  accuracy= 70.2%
+  k= 110  accuracy= 72.6%
+  k= 120  accuracy= 68.5%
+
+Best k: 90, accuracy: 75.0%
+Final test accuracy: 75.8%
+Imposter rejection rate: 1.2%
+Genuine false-reject rate: 5.6%
